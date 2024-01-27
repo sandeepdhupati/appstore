@@ -1,0 +1,37 @@
+/* Write your CSS here */
+li {
+  list-style: none;
+}
+.app-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.app-image {
+  height: 80px;
+  width: 80px;
+}
+.app-label {
+  font-family: Bree Serif;
+}
+
+@media (max-width: 768px) {
+  .app-card-container {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    width: 100px;
+  }
+  .app-image {
+    height: 50px;
+    width: 50px;
+  }
+}
